@@ -1,0 +1,33 @@
+---
+title: "**Practice**"
+output: powerpoint_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Data Summarization
+
+Hello students. 
+Today we are going to discuss basics of data summarization using R
+
+## Some key points
+
+- **What includes Summary of a vector or a dataset**
+- **Interpreting statistical outputs**
+_ **Summary through plots**
+
+## An overview of Summary Output
+
+```{r mtcars, echo=T}
+summary(mtcars)
+```
+
+## Slide with Plot
+
+```{r mpg scatter plot}
+plot(mtcars$mpg)
+```
+## **Thank You**
+
